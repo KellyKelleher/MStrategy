@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M Strategy Group | Box Preferred Portal Solutions</title>
+  <meta name="description" content="Turn Box into an enterprise business application platform. Discover M Strategy Group's Engage, DRM, Universal Portal, and VDR solutions built natively on Box.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            boxNavy: '#001538',
+            boxDarkNavy: '#06152D',
+            boxMidnight: '#040D1B',
+            boxBlue: '#0061D5',
+            boxCyan: '#00B0FF',
+            mOrange: '#FF6500',
+            mOrangeHover: '#FF781A',
+            slateDark: '#0F172A',
+            slateBg: '#F8FAFC'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-slate-900 font-sans antialiased">
+
+  <!-- Header Navigation Bar -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-boxNavy/95 backdrop-blur-md border-b border-slate-800 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- M Strategy Logo in Main Navigation -->
+        <a href="index.html" class="flex items-center group">
+          <img src="assets/images/m_strategy_logo_new.png" alt="M Strategy Group" class="h-8 md:h-9 w-auto object-contain transition-transform group-hover:scale-105">
+        </a>
+
+        <!-- Main Navigation Links -->
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-200">
+          <a href="index.html" class="nav-link text-white font-semibold">Home</a>
+
+          <!-- Solutions Dropdown -->
+          <div class="relative group">
+            <button class="flex items-center space-x-1 nav-link hover:text-white py-2">
+              <span>Solutions</span>
+              <svg class="w-4 h-4 text-slate-400 group-hover:text-mOrange transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+
+            <!-- Dropdown Menu -->
+            <div class="dropdown-menu absolute left-0 top-full mt-1 w-80 rounded-2xl bg-boxDarkNavy border border-slate-700 shadow-2xl p-3 z-50">
+              <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 py-2 border-b border-slate-800 mb-1">M Strategy Portal Solutions</div>
+              
+              <a href="engage.html" class="flex items-start p-3 rounded-xl hover:bg-slate-800/80 transition group/item">
+                <div class="w-9 h-9 rounded-lg bg-orange-500/10 text-mOrange flex items-center justify-center mr-3 mt-0.5 group-hover/item:bg-mOrange group-hover/item:text-white transition">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-white group-hover/item:text-mOrange transition">Engage</div>
+                  <div class="text-xs text-slate-400">Advisor & client onboarding workspace</div>
+                </div>
+              </a>
+
+              <a href="vdr.html" class="flex items-start p-3 rounded-xl hover:bg-slate-800/80 transition group/item">
+                <div class="w-9 h-9 rounded-lg bg-blue-500/10 text-boxBlue flex items-center justify-center mr-3 mt-0.5 group-hover/item:bg-boxBlue group-hover/item:text-white transition">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-white group-hover/item:text-boxBlue transition">Virtual Data Room</div>
+                  <div class="text-xs text-slate-400">High-stakes dealrooms & dynamic NDAs</div>
+                </div>
+              </a>
+
+              <a href="universal-portal.html" class="flex items-start p-3 rounded-xl hover:bg-slate-800/80 transition group/item">
+                <div class="w-9 h-9 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center mr-3 mt-0.5 group-hover/item:bg-emerald-500 group-hover/item:text-white transition">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-white group-hover/item:text-emerald-400 transition">Universal Portal</div>
+                  <div class="text-xs text-slate-400">Enterprise collaboration hub</div>
+                </div>
+              </a>
+
+              <a href="drm.html" class="flex items-start p-3 rounded-xl hover:bg-slate-800/80 transition group/item">
+                <div class="w-9 h-9 rounded-lg bg-orange-500/10 text-mOrange flex items-center justify-center mr-3 mt-0.5 group-hover/item:bg-mOrange group-hover/item:text-white transition">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-white group-hover/item:text-mOrange transition">DRM</div>
+                  <div class="text-xs text-slate-400">Digital Rights Management & security</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <a href="#showcase" class="nav-link hover:text-white">Portal Showcase</a>
+          <a href="#partnership" class="nav-link hover:text-white">Box Advantage</a>
+          <a href="#industries" class="nav-link hover:text-white">Ideal For</a>
+        </nav>
+
+        <!-- Right Header CTAs -->
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="mailto:info@mstrategygroup.com" class="text-sm text-slate-300 hover:text-white font-medium">Contact Us</a>
+          <button class="open-demo-modal btn-primary-orange text-xs uppercase tracking-wider font-bold px-6 py-3 rounded-full">
+            Schedule Demo
+          </button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button id="mobile-menu-btn" class="text-slate-300 hover:text-white p-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-boxDarkNavy border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
+      <a href="index.html" class="block py-2 text-white font-medium">Home</a>
+      <div class="py-2 border-y border-slate-800 space-y-2">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Solutions</div>
+        <a href="engage.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">Engage</a>
+        <a href="vdr.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">Virtual Data Room</a>
+        <a href="universal-portal.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">Universal Portal</a>
+        <a href="drm.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">Digital Rights Management</a>
+      </div>
+      <a href="#showcase" class="block py-2 text-slate-300">Portal Showcase</a>
+      <a href="#partnership" class="block py-2 text-slate-300">Box Advantage</a>
+      <button class="open-demo-modal w-full btn-primary-orange text-xs uppercase tracking-wider font-bold py-3 rounded-full mt-2">
+        Schedule Demo
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section (Dark Blue Background — Box.com Style Hero with Floating Badges) -->
+  <section class="relative pt-32 pb-24 md:pt-40 md:pb-36 bg-boxNavy text-white bg-box-hero-dark overflow-hidden border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Column -->
+        <div class="lg:col-span-6 space-y-6 text-center lg:text-left">
+          
+          <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full badge-dark-orange text-xs font-bold uppercase tracking-wider shadow-sm">
+            <span class="w-2.5 h-2.5 rounded-full bg-mOrange animate-ping"></span>
+            <span>Box Preferred Solution Partner</span>
+            <span class="text-slate-400">|</span>
+            <span class="text-boxCyan font-mono">AI Enabled</span>
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+            Turn Box Into a <br>
+            <span class="text-gradient-box-headline">Complete Business Platform</span>
+          </h1>
+
+          <p class="text-lg sm:text-xl text-slate-300 max-w-2xl font-normal leading-relaxed">
+            M Strategy Group delivers company-branded portals, automated workflows, custom dashboards, and persistent document security built natively on Box Intelligent Content Management.
+          </p>
+
+          <!-- CTAs -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+            <button class="open-demo-modal w-full sm:w-auto btn-primary-orange text-sm font-bold uppercase tracking-wider px-8 py-4 rounded-full shadow-lg">
+              Schedule Portal Demo
+            </button>
+            <a href="#showcase" class="w-full sm:w-auto btn-outline-white text-sm font-semibold px-8 py-4 rounded-full text-center">
+              Explore Portal Solutions &rarr;
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="pt-8 border-t border-slate-800/80 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-xs font-medium text-slate-400">
+            <div class="flex items-center space-x-2">
+              <svg class="w-4 h-4 text-boxCyan" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span>Hosted on Microsoft Azure</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <svg class="w-4 h-4 text-boxCyan" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span>Native Box API</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <svg class="w-4 h-4 text-boxCyan" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span>SOC2 Governance</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual Showcase with Floating Badges (Box.com Layout) -->
+        <div class="lg:col-span-6 relative">
+          
+          <!-- Mac Window Browser Frame -->
+          <div class="browser-frame-dark bg-slate-900 border border-slate-700/80 rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl">
+            <!-- Mac Window Bar -->
+            <div class="bg-slate-800/90 px-4 py-3 border-b border-slate-700/80 flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <span class="w-3 h-3 rounded-full bg-red-500 inline-block"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-500 inline-block"></span>
+                <span class="w-3 h-3 rounded-full bg-green-500 inline-block"></span>
+              </div>
+              <div class="text-[11px] font-mono text-slate-300 bg-slate-950/80 px-3 py-1 rounded-md border border-slate-700/50 flex items-center space-x-2">
+                <span class="w-2 h-2 rounded-full bg-mOrange"></span>
+                <span>portal.mstrategygroup.com</span>
+              </div>
+              <div class="text-[10px] uppercase font-bold text-mOrange tracking-wider">M Strategy Portals</div>
+            </div>
+            <!-- High-Res Dashboard Screenshot -->
+            <div class="overflow-hidden max-h-[460px]">
+              <img src="assets/images/Universal Portal Dashboard.png" alt="Box Universal Portal Interface" class="w-full h-auto object-cover object-top">
+            </div>
+          </div>
+
+          <!-- Floating Badges around Dashboard (Box.com Design) -->
+          <div class="absolute -top-4 -right-2 sm:-right-4 floating-glass-card-dark rounded-2xl p-3.5 text-left hidden sm:flex items-center space-x-3 animate-float-slow z-20">
+            <div class="w-9 h-9 rounded-xl bg-orange-500/10 text-mOrange flex items-center justify-center font-bold">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div>
+              <div class="text-xs font-bold text-white">AI Validation Match</div>
+              <div class="text-[11px] text-emerald-400 font-medium">98% Accuracy Score</div>
+            </div>
+          </div>
+
+          <div class="absolute -bottom-6 -left-2 sm:-left-4 floating-glass-card-dark rounded-2xl p-3.5 text-left hidden sm:flex items-center space-x-3 animate-float-reverse z-20">
+            <div class="w-9 h-9 rounded-xl bg-blue-500/10 text-boxCyan flex items-center justify-center font-bold">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+            </div>
+            <div>
+              <div class="text-xs font-bold text-white">Persistent DRM Security</div>
+              <div class="text-[11px] text-slate-400 font-medium">AES-256 &bull; Watermarking</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Solutions Graphic Showcase (Clean Light Section) -->
+  <section id="showcase" class="py-24 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12 space-y-4">
+        <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full badge-orange text-xs font-bold uppercase tracking-wider">
+          Official Product Graphics
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">
+          Explore M Strategy Portal Interfaces
+        </h2>
+        <p class="text-slate-600 text-base">
+          Click through the four solution tabs below to inspect high-resolution portal graphics from our official platform suite.
+        </p>
+      </div>
+
+      <!-- Graphic Selector Tabs -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        <button class="graphic-tab-btn border-mOrange text-mOrange bg-orange-50 p-4 rounded-2xl border font-bold text-sm text-center transition flex flex-col items-center justify-center space-y-1 shadow-sm" data-graphic="graphic-universal">
+          <span class="text-xs uppercase tracking-wider text-slate-500 font-semibold">Hub Platform</span>
+          <span>Universal Portal</span>
+        </button>
+        <button class="graphic-tab-btn border-slate-200 text-slate-600 bg-slate-50 p-4 rounded-2xl border font-bold text-sm text-center transition flex flex-col items-center justify-center space-y-1 hover:border-boxBlue hover:text-slate-900" data-graphic="graphic-drm">
+          <span class="text-xs uppercase tracking-wider text-slate-500 font-semibold">Security</span>
+          <span>DRM Protection</span>
+        </button>
+        <button class="graphic-tab-btn border-slate-200 text-slate-600 bg-slate-50 p-4 rounded-2xl border font-bold text-sm text-center transition flex flex-col items-center justify-center space-y-1 hover:border-purple-600 hover:text-slate-900" data-graphic="graphic-vdr">
+          <span class="text-xs uppercase tracking-wider text-slate-500 font-semibold">M&A Dealrooms</span>
+          <span>Virtual Data Room</span>
+        </button>
+        <button class="graphic-tab-btn border-slate-200 text-slate-600 bg-slate-50 p-4 rounded-2xl border font-bold text-sm text-center transition flex flex-col items-center justify-center space-y-1 hover:border-mOrange hover:text-slate-900" data-graphic="graphic-engage">
+          <span class="text-xs uppercase tracking-wider text-slate-500 font-semibold">Advisors & Clients</span>
+          <span>Engage Workspace</span>
+        </button>
+      </div>
+
+      <!-- Graphic Displays Container -->
+      <div class="bg-slate-50 p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-xl">
+        
+        <!-- Graphic 1: Universal Portal -->
+        <div id="graphic-universal" class="graphic-preview grid lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-5 space-y-4">
+            <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider">Universal Portal Graphic</span>
+            <h3 class="text-2xl sm:text-3xl font-bold text-slate-900">Configurable Workflows & Shared Documents</h3>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              Unify business operations under your brand. Manage granular content permissions, tasks, forms, and audit trails powered natively by Box.
+            </p>
+            <a href="universal-portal.html" class="inline-block btn-primary-orange text-xs font-bold uppercase tracking-wider px-6 py-3.5 rounded-full mt-2 shadow-md">
+              View Full Universal Portal Page &rarr;
+            </a>
+          </div>
+          <div class="lg:col-span-7">
+            <div class="browser-frame bg-white rounded-xl overflow-hidden border border-slate-200 shadow-lg">
+              <div class="bg-slate-100 px-3 py-2 border-b border-slate-200 flex items-center space-x-1.5">
+                <span class="w-2 h-2 rounded-full bg-red-400"></span>
+                <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span class="text-[10px] text-slate-500 font-mono pl-2">Universal Portal Dashboard</span>
+              </div>
+              <img src="assets/images/Universal Portal Dashboard.png" alt="Universal Portal Graphic" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+
+        <!-- Graphic 2: DRM -->
+        <div id="graphic-drm" class="graphic-preview hidden grid lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-5 space-y-4">
+            <span class="text-xs font-bold text-boxBlue uppercase tracking-wider">DRM Security Graphic</span>
+            <h3 class="text-2xl sm:text-3xl font-bold text-slate-900">Persistent Security & Dynamic Watermarking</h3>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              Protect documents anywhere they travel. Set pre-open authentication, dynamic watermarks, usage restrictions, and post-download audit trails.
+            </p>
+            <a href="drm.html" class="inline-block btn-primary-orange text-xs font-bold uppercase tracking-wider px-6 py-3.5 rounded-full mt-2 shadow-md">
+              View Full DRM Page &rarr;
+            </a>
+          </div>
+          <div class="lg:col-span-7">
+            <div class="browser-frame bg-white rounded-xl overflow-hidden border border-slate-200 shadow-lg">
+              <div class="bg-slate-100 px-3 py-2 border-b border-slate-200 flex items-center space-x-1.5">
+                <span class="w-2 h-2 rounded-full bg-red-400"></span>
+                <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span class="text-[10px] text-slate-500 font-mono pl-2">DRM Admin Dashboard</span>
+              </div>
+              <img src="assets/images/DRM AdminDashboard.PNG" alt="DRM Graphic" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+
+        <!-- Graphic 3: VDR -->
+        <div id="graphic-vdr" class="graphic-preview hidden grid lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-5 space-y-4">
+            <span class="text-xs font-bold text-purple-600 uppercase tracking-wider">VDR Dealroom Graphic</span>
+            <h3 class="text-2xl sm:text-3xl font-bold text-slate-900">Threaded Q&A & Dynamic Multi-NDAs</h3>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              Seamless experience for deal teams, investors, and legal counsel. In-browser viewing, page-level analytics, and waterfall permissions.
+            </p>
+            <a href="vdr.html" class="inline-block btn-primary-orange text-xs font-bold uppercase tracking-wider px-6 py-3.5 rounded-full mt-2 shadow-md">
+              View Full VDR Page &rarr;
+            </a>
+          </div>
+          <div class="lg:col-span-7">
+            <div class="browser-frame bg-white rounded-xl overflow-hidden border border-slate-200 shadow-lg">
+              <div class="bg-slate-100 px-3 py-2 border-b border-slate-200 flex items-center space-x-1.5">
+                <span class="w-2 h-2 rounded-full bg-red-400"></span>
+                <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span class="text-[10px] text-slate-500 font-mono pl-2">VDR Dashboard & Due Diligence</span>
+              </div>
+              <img src="assets/images/VDR Dashboard.png" alt="VDR Graphic" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+
+        <!-- Graphic 4: Engage -->
+        <div id="graphic-engage" class="graphic-preview hidden grid lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-5 space-y-4">
+            <span class="text-xs font-bold text-mOrange uppercase tracking-wider">Engage Workspace Graphic</span>
+            <h3 class="text-2xl sm:text-3xl font-bold text-slate-900">AI Document Validation & Client Dashboards</h3>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+              Unified workspace for advisors and clients. Automatically analyze uploaded documents against task requirements with accuracy percentage scoring.
+            </p>
+            <a href="engage.html" class="inline-block btn-primary-orange text-xs font-bold uppercase tracking-wider px-6 py-3.5 rounded-full mt-2 shadow-md">
+              View Full Engage Page &rarr;
+            </a>
+          </div>
+          <div class="lg:col-span-7">
+            <div class="browser-frame bg-white rounded-xl overflow-hidden border border-slate-200 shadow-lg">
+              <div class="bg-slate-100 px-3 py-2 border-b border-slate-200 flex items-center space-x-1.5">
+                <span class="w-2 h-2 rounded-full bg-red-400"></span>
+                <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span class="text-[10px] text-slate-500 font-mono pl-2">Engage Client Dashboard</span>
+              </div>
+              <img src="assets/images/Engage ClientDashboard.JPG" alt="Engage Graphic" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5 Business Impact Pillars (Box.com Clean Feature Card Grid) -->
+  <section id="partnership" class="py-24 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full badge-blue text-xs font-bold uppercase tracking-wider">
+          M Strategy + Box Advantage
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Five Ways M Strategy Portals Extend the Value of Box
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg">
+          Instead of investing in costly custom applications, rapidly deploy secure digital experiences for employees, customers, partners, and vendors—all powered by Box.
+        </p>
+      </div>
+
+      <!-- 5 Impact Cards Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="motion-grid-card bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl group">
+          <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-mOrange flex items-center justify-center font-bold text-xl mb-6 group-hover:bg-mOrange group-hover:text-white transition">
+            1
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-mOrange transition">
+            Turn Box Into a Business Application Platform
+          </h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Most organizations use Box to manage content. M Strategy helps organizations turn that content into business outcomes by adding branded portals, workflow automation, forms, dashboards, tasks, and notifications.
+          </p>
+        </div>
+
+        <div class="motion-grid-card bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl group">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-boxBlue flex items-center justify-center font-bold text-xl mb-6 group-hover:bg-boxBlue group-hover:text-white transition">
+            2
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-boxBlue transition">
+            Secure Access for Every User & Role
+          </h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Extend Box security with advanced identity management and granular role-based access controls that simplify administration while protecting sensitive information without exposing internal Box structures.
+          </p>
+        </div>
+
+        <div class="motion-grid-card bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center font-bold text-xl mb-6 group-hover:bg-emerald-600 group-hover:text-white transition">
+            3
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-emerald-600 transition">
+            Purpose-Built Solutions for Every Industry
+          </h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Transform Box into client portals, virtual data rooms, onboarding hubs, or regulated document workspaces designed around real-world processes—not generic file repositories.
+          </p>
+        </div>
+
+        <div class="motion-grid-card bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl group">
+          <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-600 flex items-center justify-center font-bold text-xl mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
+            4
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-purple-600 transition">
+            Strengthen Compliance Without Slowing Work
+          </h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Introduce workflow automation, approvals, task management, post-download audit trails, and reporting that help organizations operate more efficiently while meeting strict regulatory standards.
+          </p>
+        </div>
+
+        <div class="motion-grid-card bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl group md:col-span-2 lg:col-span-2">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center font-bold text-xl mb-6 group-hover:bg-amber-600 group-hover:text-white transition">
+            5
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-600 transition">
+            Maximize Return on Your Box Investment
+          </h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Organizations already trust Box as their Intelligent Content Management platform. M Strategy helps them unlock additional value by replacing disconnected point solutions and building on the infrastructure they already own.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Four Solution Navigation Cards Grid (Dark Blue Background Section) -->
+  <section class="py-24 bg-boxNavy text-white bg-box-section-dark border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div>
+          <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full badge-dark-orange text-xs font-bold uppercase tracking-wider mb-3">
+            M Strategy Portal Suite
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+            Explore Solutions Built for Box
+          </h2>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- Solution 1: Engage -->
+        <div class="floating-glass-card-dark rounded-3xl p-8 hover:border-mOrange transition flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-mOrange/20 text-mOrange border border-mOrange/30">Advisors & Clients</span>
+              <span class="text-[10px] font-mono text-boxCyan bg-boxBlue/20 px-2 py-0.5 rounded border border-boxBlue/30">AI Matching</span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-mOrange transition">Engage Portal</h3>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              A company-branded workspace for advisors and clients to collaborate with AI document validation and guided onboarding.
+            </p>
+            <div class="browser-frame-dark bg-slate-950 rounded-xl overflow-hidden border border-slate-700 mb-6">
+              <img src="assets/images/Engage ClientDashboard.JPG" alt="Engage Preview" class="w-full h-44 object-cover object-top">
+            </div>
+          </div>
+          <a href="engage.html" class="inline-flex items-center justify-between w-full px-6 py-3.5 rounded-xl bg-slate-800/80 hover:bg-mOrange text-white font-semibold text-sm transition shadow-md">
+            <span>Explore Engage Solution</span>
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+
+        <!-- Solution 2: DRM -->
+        <div class="floating-glass-card-dark rounded-3xl p-8 hover:border-boxBlue transition flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-boxBlue/20 text-boxBlue border border-boxBlue/30">Document Security</span>
+              <span class="text-[10px] font-mono text-boxCyan bg-boxBlue/20 px-2 py-0.5 rounded border border-boxBlue/30">AES-256</span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-boxBlue transition">Digital Rights Management (DRM)</h3>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Persistent document protection, pre-open authentication, dynamic watermarking, and post-download audit trails.
+            </p>
+            <div class="browser-frame-dark bg-slate-950 rounded-xl overflow-hidden border border-slate-700 mb-6">
+              <img src="assets/images/DRM AdminDashboard.PNG" alt="DRM Preview" class="w-full h-44 object-cover object-top">
+            </div>
+          </div>
+          <a href="drm.html" class="inline-flex items-center justify-between w-full px-6 py-3.5 rounded-xl bg-slate-800/80 hover:bg-boxBlue text-white font-semibold text-sm transition shadow-md">
+            <span>Explore DRM Solution</span>
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+
+        <!-- Solution 3: Universal Portal -->
+        <div class="floating-glass-card-dark rounded-3xl p-8 hover:border-emerald-500 transition flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Enterprise Hub</span>
+              <span class="text-[10px] font-mono text-emerald-300 bg-emerald-500/20 px-2 py-0.5 rounded border border-emerald-500/30">OCR Ready</span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-emerald-400 transition">Universal Portal</h3>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Enterprise collaboration hub connecting employees, customers, and partners with OCR capabilities and shared documents.
+            </p>
+            <div class="browser-frame-dark bg-slate-950 rounded-xl overflow-hidden border border-slate-700 mb-6">
+              <img src="assets/images/Universal Portal Dashboard.png" alt="Universal Portal Preview" class="w-full h-44 object-cover object-top">
+            </div>
+          </div>
+          <a href="universal-portal.html" class="inline-flex items-center justify-between w-full px-6 py-3.5 rounded-xl bg-slate-800/80 hover:bg-emerald-600 text-white font-semibold text-sm transition shadow-md">
+            <span>Explore Universal Portal</span>
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+
+        <!-- Solution 4: VDR -->
+        <div class="floating-glass-card-dark rounded-3xl p-8 hover:border-purple-500 transition flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/30">Deal Rooms & M&A</span>
+              <span class="text-[10px] font-mono text-purple-300 bg-purple-500/20 px-2 py-0.5 rounded border border-purple-500/30">Dynamic NDA</span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-purple-400 transition">Virtual Data Room (VDR)</h3>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              High-stakes transaction management with threaded Q&A, dynamic NDAs, waterfall permissions, and page analytics.
+            </p>
+            <div class="browser-frame-dark bg-slate-950 rounded-xl overflow-hidden border border-slate-700 mb-6">
+              <img src="assets/images/VDR Dashboard.png" alt="VDR Preview" class="w-full h-44 object-cover object-top">
+            </div>
+          </div>
+          <a href="vdr.html" class="inline-flex items-center justify-between w-full px-6 py-3.5 rounded-xl bg-slate-800/80 hover:bg-purple-600 text-white font-semibold text-sm transition shadow-md">
+            <span>Explore VDR Solution</span>
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Ideal For Section -->
+  <section id="industries" class="py-20 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12 space-y-3">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Ideal For:
+        </h2>
+        <p class="text-slate-600 text-base">Trusted across financial services, legal, corporate development, and life sciences.</p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+        
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center hover:border-mOrange transition shadow-sm group">
+          <div class="w-10 h-10 rounded-xl bg-orange-50 text-mOrange flex items-center justify-center mx-auto mb-3 font-bold group-hover:bg-mOrange group-hover:text-white transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+          </div>
+          <div class="text-sm font-bold text-slate-900">Investment firms</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center hover:border-mOrange transition shadow-sm group">
+          <div class="w-10 h-10 rounded-xl bg-orange-50 text-mOrange flex items-center justify-center mx-auto mb-3 font-bold group-hover:bg-mOrange group-hover:text-white transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
+          </div>
+          <div class="text-sm font-bold text-slate-900">Legal teams</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center hover:border-mOrange transition shadow-sm group">
+          <div class="w-10 h-10 rounded-xl bg-orange-50 text-mOrange flex items-center justify-center mx-auto mb-3 font-bold group-hover:bg-mOrange group-hover:text-white transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+          </div>
+          <div class="text-sm font-bold text-slate-900">M&A professionals</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center hover:border-mOrange transition shadow-sm group">
+          <div class="w-10 h-10 rounded-xl bg-orange-50 text-mOrange flex items-center justify-center mx-auto mb-3 font-bold group-hover:bg-mOrange group-hover:text-white transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div class="text-sm font-bold text-slate-900">P&E professionals</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center hover:border-mOrange transition shadow-sm group">
+          <div class="w-10 h-10 rounded-xl bg-orange-50 text-mOrange flex items-center justify-center mx-auto mb-3 font-bold group-hover:bg-mOrange group-hover:text-white transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <div class="text-sm font-bold text-slate-900">Client onboarding and compliance</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center hover:border-mOrange transition shadow-sm group">
+          <div class="w-10 h-10 rounded-xl bg-orange-50 text-mOrange flex items-center justify-center mx-auto mb-3 font-bold group-hover:bg-mOrange group-hover:text-white transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+          </div>
+          <div class="text-sm font-bold text-slate-900">Strategic consultants & advisors</div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 text-center hover:border-mOrange transition shadow-sm group sm:col-span-3 lg:col-span-2">
+          <div class="w-10 h-10 rounded-xl bg-orange-50 text-mOrange flex items-center justify-center mx-auto mb-3 font-bold group-hover:bg-mOrange group-hover:text-white transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+          </div>
+          <div class="text-sm font-bold text-slate-900">Life Sciences</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner Section (Dark Blue Background) -->
+  <section class="py-20 bg-boxNavy text-white bg-box-section-dark border-t border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 text-center space-y-6">
+      <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight">
+        Ready to Transform Box into an Enterprise Application Platform?
+      </h2>
+      <p class="text-slate-300 text-base sm:text-xl max-w-3xl mx-auto">
+        Speak with M Strategy solutions architects to see a customized demonstration of Engage, DRM, Universal Portal, or VDR.
+      </p>
+      <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <button class="open-demo-modal btn-primary-orange text-sm font-bold uppercase tracking-wider px-8 py-4 rounded-full shadow-lg">
+          Schedule Live Demo
+        </button>
+        <a href="mailto:info@mstrategygroup.com" class="btn-outline-white text-sm font-semibold px-8 py-4 rounded-full">
+          Contact Sales Team
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-boxDarkNavy text-slate-400 text-xs py-16 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+      
+      <!-- Brand Info -->
+      <div class="col-span-2 space-y-4">
+        <div class="flex items-center space-x-3">
+          <img src="assets/images/m_strategy_logo_new.png" alt="M Strategy Group" class="h-7 w-auto object-contain">
+        </div>
+        <p class="text-slate-400 text-xs max-w-sm leading-relaxed">
+          M Strategy Group delivers enterprise portal solutions built natively on Box Intelligent Content Management. Transforming content into secure, actionable business outcomes.
+        </p>
+        <div class="text-slate-300">
+          Email: <a href="mailto:info@mstrategygroup.com" class="text-mOrange underline">info@mstrategygroup.com</a><br>
+          Website: <a href="https://mstrategygroup.com" target="_blank" class="text-boxBlue underline">mstrategygroup.com</a>
+        </div>
+      </div>
+
+      <!-- Solutions Links -->
+      <div class="space-y-2">
+        <div class="font-bold text-white uppercase text-[11px] tracking-wider mb-2">Portal Solutions</div>
+        <div><a href="engage.html" class="hover:text-white transition">Engage Portal</a></div>
+        <div><a href="drm.html" class="hover:text-white transition">DRM Security</a></div>
+        <div><a href="universal-portal.html" class="hover:text-white transition">Universal Portal</a></div>
+        <div><a href="vdr.html" class="hover:text-white transition">Virtual Data Room</a></div>
+      </div>
+
+      <!-- Legal Links -->
+      <div class="space-y-2">
+        <div class="font-bold text-white uppercase text-[11px] tracking-wider mb-2">Legal & Privacy</div>
+        <div><a href="privacy-policy.html" class="hover:text-white transition">Privacy Policy</a></div>
+        <div><a href="terms.html" class="hover:text-white transition">Terms and Conditions</a></div>
+      </div>
+
+      <!-- Cloud & Trust -->
+      <div class="space-y-2">
+        <div class="font-bold text-white uppercase text-[11px] tracking-wider mb-2">Security & Cloud</div>
+        <div><span class="text-slate-400">Microsoft Azure Cloud</span></div>
+        <div><span class="text-slate-400">Native Box API</span></div>
+        <div><span class="text-slate-400">SOC2 Type II Governance</span></div>
+      </div>
+
+    </div>
+
+    <!-- Updated Footer Policy Links -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80 pt-8 flex flex-col md:flex-row items-center justify-between text-slate-500">
+      <div>&copy; 2026 M Strategy Group. All rights reserved.</div>
+      <div class="mt-4 md:mt-0 space-x-6">
+        <a href="privacy-policy.html" class="hover:text-white transition">Privacy Policy</a>
+        <a href="terms.html" class="hover:text-white transition">Terms and Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Schedule Demo Modal Window -->
+  <div id="demo-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 modal-backdrop">
+    <div class="bg-boxDarkNavy border border-slate-700 rounded-3xl p-8 max-w-lg w-full relative shadow-2xl">
+      <button id="close-demo-modal" class="absolute top-6 right-6 text-slate-400 hover:text-white">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+
+      <div class="space-y-3 mb-6">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full badge-dark-orange text-xs font-bold uppercase tracking-wider">
+          Schedule Portal Demo
+        </div>
+        <h3 class="text-2xl font-bold text-white">Experience M Strategy + Box</h3>
+        <p class="text-slate-400 text-xs">Complete the form below and our solutions engineering team will reach out to schedule a live demo.</p>
+      </div>
+
+      <form id="demo-form" class="space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Full Name</label>
+          <input type="text" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-white text-sm focus:border-mOrange focus:outline-none" placeholder="Jane Doe">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Work Email</label>
+          <input type="email" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-white text-sm focus:border-mOrange focus:outline-none" placeholder="jane@company.com">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Solution of Interest</label>
+          <select class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-white text-sm focus:border-mOrange focus:outline-none">
+            <option value="all">All M Strategy Portal Solutions</option>
+            <option value="engage">Engage (Advisor & Client Onboarding)</option>
+            <option value="drm">Digital Rights Management (DRM)</option>
+            <option value="universal">Universal Portal</option>
+            <option value="vdr">Virtual Data Room (VDR)</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Company / Organization</label>
+          <input type="text" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-white text-sm focus:border-mOrange focus:outline-none" placeholder="Company Name">
+        </div>
+        <button type="submit" class="w-full btn-primary-orange text-xs font-bold uppercase tracking-wider py-3.5 rounded-xl shadow-lg mt-2">
+          Request Demo
+        </button>
+      </form>
+
+      <div id="demo-success" class="hidden text-center py-8 space-y-3">
+        <div class="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <h4 class="text-xl font-bold text-white">Thank You!</h4>
+        <p class="text-slate-400 text-xs">Your demo request has been received. Our team will contact you shortly.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
