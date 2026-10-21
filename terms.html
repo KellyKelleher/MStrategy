@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terms and Conditions | M Strategy Group</title>
-  <meta name="description" content="M Strategy Group Terms and Conditions governing the use of our Box portal solutions, website, and services.">
+  <title>Terms and Conditions | MStrategy</title>
+  <meta name="description" content="MStrategy Terms and Conditions governing the use of our Box portal solutions, website, and services. Box Commercial Partner of the Year.">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,66 +15,74 @@
       theme: {
         extend: {
           colors: {
-            boxNavy: '#000B18',
-            boxDarkBlue: '#0B172A',
+            boxNavy: '#001538',
+            boxDarkNavy: '#06152D',
+            boxMidnight: '#040D1B',
             boxBlue: '#0061D5',
             boxCyan: '#00B0FF',
             mOrange: '#FF6500',
-            mBlue: '#2563EB',
+            mOrangeHover: '#FF781A',
+            slateDark: '#0F172A',
+            slateBg: '#F8FAFC'
           }
         }
       }
     }
   </script>
 </head>
-<body class="bg-white text-slate-900 font-sans antialiased">
+<body class="bg-white text-slate-900 font-sans antialiased selection:bg-mOrange selection:text-white">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-gradient-to-r from-boxMidnight via-boxNavy to-boxDarkNavy text-white py-2.5 px-4 text-xs font-medium border-b border-slate-800 relative z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center space-x-3 mx-auto md:mx-0">
+        <span class="inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-full bg-mOrange/20 border border-mOrange/40 text-mOrange text-[11px] font-bold uppercase tracking-wider">
+          <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <span>Recognition</span>
+        </span>
+        <span class="text-slate-200">
+          Honored as <strong class="text-white font-semibold">Box Commercial Partner of the Year</strong>
+        </span>
+      </div>
+      <div class="hidden md:flex items-center space-x-4 text-slate-300 text-xs">
+        <span>Powered by Box Intelligent Content Management</span>
+        <span class="text-slate-600">|</span>
+        <span>Microsoft Azure Hosted</span>
+      </div>
+    </div>
+  </div>
 
   <!-- Header Navigation Bar -->
-  <header class="fixed top-0 left-0 right-0 z-50 bg-boxNavy/95 backdrop-blur-md border-b border-slate-800 transition-all duration-300">
+  <header class="sticky top-0 left-0 right-0 z-40 bg-boxNavy/95 backdrop-blur-md border-b border-slate-800 transition-all duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         
-        <!-- M Strategy Logo in Main Navigation -->
         <a href="index.html" class="flex items-center group">
-          <img src="assets/images/m_strategy_logo_new.png" alt="M Strategy Group" class="h-8 md:h-9 w-auto object-contain transition-transform group-hover:scale-105">
+          <img src="assets/images/m_strategy_logo_new.png" alt="MStrategy" class="h-8 md:h-9 w-auto object-contain transition-transform group-hover:scale-105">
         </a>
 
-        <!-- Main Navigation Links -->
-        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-200">
+        <nav class="hidden lg:flex items-center space-x-7 text-sm font-medium text-slate-200">
           <a href="index.html" class="nav-link hover:text-white">Home</a>
-
-          <div class="relative group">
-            <button class="flex items-center space-x-1 nav-link text-white font-semibold py-2">
-              <span>Solutions</span>
-              <svg class="w-4 h-4 text-slate-400 group-hover:text-mOrange transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-              </svg>
-            </button>
-
-            <div class="dropdown-menu absolute left-0 top-full mt-1 w-80 rounded-2xl bg-boxDarkBlue border border-slate-700 shadow-2xl p-3 z-50">
-              <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider px-3 py-2 border-b border-slate-800 mb-1">M Strategy Portal Solutions</div>
-              <a href="engage.html" class="block p-3 rounded-xl hover:bg-slate-800/80 transition text-white font-semibold text-sm">Engage</a>
-              <a href="drm.html" class="block p-3 rounded-xl hover:bg-slate-800/80 transition text-white font-semibold text-sm">DRM</a>
-              <a href="universal-portal.html" class="block p-3 rounded-xl hover:bg-slate-800/80 transition text-white font-semibold text-sm">Universal Portal</a>
-              <a href="vdr.html" class="block p-3 rounded-xl hover:bg-slate-800/80 transition text-white font-semibold text-sm">VDR</a>
-            </div>
-          </div>
+          <a href="client.html" class="nav-link hover:text-white">MStrategy Client</a>
+          <a href="partner.html" class="nav-link hover:text-white">MStrategy Partner</a>
+          <a href="employee.html" class="nav-link hover:text-white">MStrategy Employee</a>
+          <a href="connect.html" class="nav-link hover:text-white">MStrategy Connect</a>
+          <a href="deal-room.html" class="nav-link hover:text-white">MStrategy Deal Room</a>
+          <a href="drm.html" class="nav-link hover:text-white">Security & DRM</a>
         </nav>
 
         <div class="hidden md:flex items-center space-x-4">
-          <button class="open-demo-modal btn-primary-orange text-xs uppercase tracking-wider font-bold px-6 py-3 rounded-full">
-            Schedule Demo
-          </button>
+          <a href="mailto:info@mstrategygroup.com" class="text-sm text-slate-300 hover:text-white font-medium">Contact Us</a>
         </div>
       </div>
     </div>
   </header>
 
   <!-- Hero Banner -->
-  <section class="pt-32 pb-16 bg-gradient-hero text-white border-b border-slate-800">
+  <section class="pt-24 pb-16 bg-boxNavy text-white bg-box-section-dark border-b border-slate-800">
     <div class="max-w-4xl mx-auto px-4 text-center space-y-4">
       <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-gradient-box-headline">Terms and Conditions</h1>
-      <p class="text-slate-300 text-sm sm:text-base">Effective Date: September 23, 2026 | M Strategy Group</p>
+      <p class="text-slate-300 text-sm sm:text-base">Effective Date: October 2026 | MStrategy</p>
     </div>
   </section>
 
@@ -83,48 +91,48 @@
     <div class="max-w-4xl mx-auto px-4 space-y-10 text-sm sm:text-base">
       
       <div class="space-y-4">
-        <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-2">1. Agreement to Terms</h2>
+        <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-2">1. Acceptance of Terms</h2>
         <p>
-          These Terms and Conditions govern your access to and use of the websites, portal applications, and services provided by <strong>M Strategy Group</strong>. By accessing our website or utilizing our Engage, DRM, Universal Portal, or Virtual Data Room (VDR) solutions, you agree to be bound by these Terms.
+          By accessing or using the website (<a href="https://mstrategygroup.com" class="text-boxBlue underline">mstrategygroup.com</a>), software platforms, or managed services operated by <strong>MStrategy</strong>, you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.
         </p>
       </div>
 
       <div class="space-y-4">
-        <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-2">2. Description of Portal Solutions</h2>
+        <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-2">2. Managed Solution Delivery & Services</h2>
         <p>
-          M Strategy Group delivers enterprise portal software and workflow automation tools built natively on Box Intelligent Content Management. Our platform enables organizations to create company-branded portals, execute guided onboarding workflows, enforce persistent Digital Rights Management (DRM), and host secure Virtual Data Rooms on Microsoft Azure Cloud.
+          MStrategy delivers a complete, managed solution lifecycle—including solution configuration, one-time setup and implementation, managed hosting in Microsoft Azure, ongoing maintenance, and enhancements. Customer content remains managed natively within customer-owned Box Intelligent Content Management repositories.
         </p>
-      </div>
-
-      <div class="space-y-4">
-        <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-2">3. User Accounts & Responsibilities</h2>
-        <p>Authorized users accessing M Strategy Group portal solutions must:</p>
         <ul class="list-disc pl-6 space-y-2 text-slate-700">
-          <li>Maintain the confidentiality of login credentials, two-factor authentication parameters, and session tokens.</li>
-          <li>Comply with organizational access permissions, Non-Disclosure Agreements (NDAs), and waterfall role controls.</li>
-          <li>Refrain from attempting to bypass dynamic watermarks, persistent document protections, or access revocation rules.</li>
+          <li><strong>Product Solutions:</strong> MStrategy Client, MStrategy Partner, MStrategy Employee, MStrategy Connect, and MStrategy Deal Room are delivered according to agreed Master Services Agreements (MSAs) or Statements of Work (SOWs).</li>
+          <li><strong>Specialized Capabilities:</strong> RBAC, ABAC, DRM, Engage & Collaborate, Automate & Integrate, and Monitor & Govern are governed by enterprise policy configurations.</li>
         </ul>
       </div>
 
       <div class="space-y-4">
-        <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-2">4. Intellectual Property</h2>
+        <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-2">3. Intellectual Property & Customer Content</h2>
         <p>
-          All proprietary software code, custom user interface designs, logos, and trademarks associated with M Strategy Group are the exclusive property of M Strategy Group. Box&reg; and associated product names are trademarks of Box, Inc.
+          All software, portal architectures, branding, and proprietary tools developed by MStrategy remain the exclusive property of MStrategy. All files, documents, records, and digital assets managed inside Box remain the sole property and responsibility of the customer.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-2">4. Digital Rights & Security Compliance</h2>
+        <p>
+          Users of MStrategy DRM and virtual data rooms agree not to circumvent watermarking, document tracking, download restrictions, or identity authentication mechanisms. Any unauthorized redistribution of protected materials is strictly prohibited.
         </p>
       </div>
 
       <div class="space-y-4">
         <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-2">5. Limitation of Liability</h2>
         <p>
-          M Strategy Group services are provided on an "as is" and "as available" basis. While we maintain rigorous SOC2 type standards and encryption controls, M Strategy Group shall not be liable for indirect, incidental, or consequential damages arising out of portal use.
+          In no event shall MStrategy be liable for indirect, incidental, or consequential damages resulting from the use or inability to use our portal solutions, except to the extent specified in signed service level agreements.
         </p>
       </div>
 
       <div class="space-y-4">
         <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-2">6. Contact Information</h2>
-        <p>For questions regarding these Terms and Conditions, please contact us at:</p>
         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-1 font-semibold text-slate-900">
-          <div>M Strategy Group Legal Department</div>
+          <div>MStrategy Legal Office</div>
           <div>Email: <a href="mailto:info@mstrategygroup.com" class="text-mOrange underline">info@mstrategygroup.com</a></div>
           <div>Website: <a href="https://mstrategygroup.com" class="text-boxBlue underline">mstrategygroup.com</a></div>
         </div>
@@ -134,13 +142,13 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-boxDarkBlue text-slate-400 text-xs py-16 border-t border-slate-800">
+  <footer class="bg-boxDarkNavy text-slate-400 text-xs py-16 border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
       <div class="flex items-center space-x-3 mb-4 md:mb-0">
-        <img src="assets/images/m_strategy_logo_new.png" alt="M Strategy Group Logo" class="h-6 w-auto">
+        <img src="assets/images/m_strategy_logo_new.png" alt="MStrategy Logo" class="h-6 w-auto">
       </div>
       <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
-        <div>&copy; 2026 M Strategy Group. All rights reserved.</div>
+        <div>&copy; 2026 MStrategy. All rights reserved. Box Commercial Partner of the Year.</div>
         <div class="space-x-4">
           <a href="privacy-policy.html" class="hover:text-white transition">Privacy Policy</a>
           <a href="terms.html" class="text-white underline font-semibold">Terms and Conditions</a>
