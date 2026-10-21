@@ -46,11 +46,6 @@
       </div>
       <div class="hidden md:flex items-center space-x-4 text-slate-300 text-xs">
         <span class="flex items-center space-x-1.5">
-          <svg class="w-3.5 h-3.5 text-boxCyan" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-          <span>Powered by Box</span>
-        </span>
-        <span class="text-slate-600">|</span>
-        <span class="flex items-center space-x-1.5">
           <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
           <span>Microsoft Azure Hosted</span>
         </span>
@@ -70,7 +65,6 @@
 
         <!-- Main Navigation Links -->
         <nav class="hidden lg:flex items-center space-x-7 text-sm font-medium text-slate-200">
-          <a href="index.html" class="nav-link text-white font-semibold">Home</a>
 
           <!-- Products Dropdown (5 Core Solutions) -->
           <div class="relative group">
@@ -184,9 +178,7 @@
 
     <!-- Mobile Dropdown Menu -->
     <div id="mobile-menu" class="hidden lg:hidden bg-boxDarkNavy border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
-      <a href="index.html" class="block py-2 text-white font-medium">Home</a>
-      
-      <div class="py-2 border-y border-slate-800 space-y-2">
+      <div class="py-2 border-b border-slate-800 space-y-2">
         <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Product Portfolio</div>
         <a href="client.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">MStrategy Client</a>
         <a href="partner.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">MStrategy Partner</a>
@@ -232,13 +224,11 @@
             <span class="text-gradient-box-headline">Entire Business Ecosystem</span>
           </h1>
 
-          <!-- Mission & Positioning Hero Lead Copy -->
+          <!-- Hero Subhead Lead Copy -->
           <div class="space-y-4">
             <p class="text-lg sm:text-xl text-slate-200 font-medium leading-relaxed">
-              <span class="text-white font-bold">Box manages your content.</span> <span class="text-mOrange font-bold">MStrategy connects your organization to it.</span>
-            </p>
-            <p class="text-base sm:text-lg text-slate-300 font-normal leading-relaxed">
-              MStrategy is a technology solutions company that extends Box Intelligent Content Management and AI beyond traditional content storage and sharing. We help organizations securely connect employees, customers, partners and their broader business ecosystem through branded digital experiences, advanced access controls, collaboration tools and automated business workflows.
+              <span class="text-white font-bold">Box manages your content.</span><br>
+              <span class="text-mOrange font-bold">MStrategy connects your organization to it.</span>
             </p>
           </div>
 
@@ -321,39 +311,15 @@
     </div>
   </section>
 
-  <!-- Mission & Value Proposition Callout Banner -->
+  <!-- Value Proposition Callout Banner -->
   <section class="py-16 bg-gradient-to-r from-boxDarkNavy via-boxNavy to-boxDarkNavy text-white border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid md:grid-cols-2 gap-8 items-center divide-y md:divide-y-0 md:divide-x divide-slate-800">
-        
-        <div class="space-y-3 pr-0 md:pr-8">
-          <div class="inline-flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-mOrange">
-            <span>Our Mission</span>
-          </div>
-          <p class="text-xl sm:text-2xl font-bold text-white leading-snug">
-            Help organizations unlock the full potential of Box by connecting people, content and business processes across their entire ecosystem.
-          </p>
-          <p class="text-sm text-slate-300">
-            MStrategy builds on customers' existing Box investments, transforming content into secure, connected business experiences that improve productivity, accelerate business processes and deliver measurable business value.
-          </p>
-        </div>
-
-        <div class="space-y-3 pt-6 md:pt-0 pl-0 md:pl-8">
-          <div class="inline-flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-boxCyan">
-            <span>Our Positioning</span>
-          </div>
-          <p class="text-xl sm:text-2xl font-bold text-white leading-snug">
-            Box manages your content.<br>
-            <span class="text-gradient-orange">MStrategy connects your organization to it.</span>
-          </p>
-          <div class="flex items-center space-x-4 pt-2">
-            <div class="px-4 py-2 rounded-xl bg-slate-900 border border-slate-700/80 text-xs text-slate-300">
-              <strong class="text-white">Recognition:</strong> Box Commercial Partner of the Year
-            </div>
-          </div>
-        </div>
-
-      </div>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      <p class="text-xl sm:text-2xl font-bold text-white leading-snug">
+        MStrategy helps organizations unlock the full potential of Box by connecting people, content, and business processes across their entire ecosystem.
+      </p>
+      <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+        MStrategy builds on customers' existing Box investments, transforming content into secure, connected business experiences that improve productivity, accelerate business processes and deliver measurable business value.
+      </p>
     </div>
   </section>
 
@@ -373,15 +339,14 @@
         </p>
       </div>
 
-      <!-- 5 Solutions Grid -->
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- 5 Solutions Grid (Row 1: 3 boxes, Row 2: 2 boxes centered) -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-6 gap-8">
 
         <!-- Solution 1: MStrategy Client -->
-        <div class="motion-grid-card bg-slate-50 rounded-3xl p-8 border border-slate-200 hover:border-mOrange transition flex flex-col justify-between group shadow-sm hover:shadow-xl">
+        <div class="motion-grid-card bg-slate-50 rounded-3xl p-8 border border-slate-200 hover:border-mOrange transition flex flex-col justify-between group shadow-sm hover:shadow-xl md:col-span-1 lg:col-span-2">
           <div>
             <div class="flex items-center justify-between mb-4">
               <span class="text-xs font-bold px-3 py-1 rounded-full bg-orange-100 text-mOrange border border-orange-200">Customers, Advisors, Borrowers</span>
-              <span class="text-[10px] font-mono text-slate-500 uppercase font-semibold">Solution 01</span>
             </div>
             <h3 class="text-2xl font-bold text-slate-900 mb-3 group-hover:text-mOrange transition">
               MStrategy Client
@@ -403,11 +368,10 @@
         </div>
 
         <!-- Solution 2: MStrategy Partner -->
-        <div class="motion-grid-card bg-slate-50 rounded-3xl p-8 border border-slate-200 hover:border-boxCyan transition flex flex-col justify-between group shadow-sm hover:shadow-xl">
+        <div class="motion-grid-card bg-slate-50 rounded-3xl p-8 border border-slate-200 hover:border-boxCyan transition flex flex-col justify-between group shadow-sm hover:shadow-xl md:col-span-1 lg:col-span-2">
           <div>
             <div class="flex items-center justify-between mb-4">
               <span class="text-xs font-bold px-3 py-1 rounded-full bg-cyan-100 text-cyan-800 border border-cyan-200">Suppliers, Contractors, Agencies</span>
-              <span class="text-[10px] font-mono text-slate-500 uppercase font-semibold">Solution 02</span>
             </div>
             <h3 class="text-2xl font-bold text-slate-900 mb-3 group-hover:text-cyan-700 transition">
               MStrategy Partner
@@ -429,11 +393,10 @@
         </div>
 
         <!-- Solution 3: MStrategy Employee -->
-        <div class="motion-grid-card bg-slate-50 rounded-3xl p-8 border border-slate-200 hover:border-emerald-500 transition flex flex-col justify-between group shadow-sm hover:shadow-xl">
+        <div class="motion-grid-card bg-slate-50 rounded-3xl p-8 border border-slate-200 hover:border-emerald-500 transition flex flex-col justify-between group shadow-sm hover:shadow-xl md:col-span-1 lg:col-span-2">
           <div>
             <div class="flex items-center justify-between mb-4">
               <span class="text-xs font-bold px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200">Internal Teams & Departments</span>
-              <span class="text-[10px] font-mono text-slate-500 uppercase font-semibold">Solution 03</span>
             </div>
             <h3 class="text-2xl font-bold text-slate-900 mb-3 group-hover:text-emerald-700 transition">
               MStrategy Employee
@@ -454,12 +417,11 @@
           </div>
         </div>
 
-        <!-- Solution 4: MStrategy Connect -->
-        <div class="motion-grid-card bg-slate-50 rounded-3xl p-8 border border-slate-200 hover:border-boxBlue transition flex flex-col justify-between group shadow-sm hover:shadow-xl">
+        <!-- Solution 4: MStrategy Connect (Centered in Row 2) -->
+        <div class="motion-grid-card bg-slate-50 rounded-3xl p-8 border border-slate-200 hover:border-boxBlue transition flex flex-col justify-between group shadow-sm hover:shadow-xl md:col-span-1 lg:col-span-2 lg:col-start-2">
           <div>
             <div class="flex items-center justify-between mb-4">
               <span class="text-xs font-bold px-3 py-1 rounded-full bg-blue-100 text-boxBlue border border-blue-200">Enterprise Experience Layer</span>
-              <span class="text-[10px] font-mono text-slate-500 uppercase font-semibold">Solution 04</span>
             </div>
             <h3 class="text-2xl font-bold text-slate-900 mb-3 group-hover:text-boxBlue transition">
               MStrategy Connect
@@ -480,30 +442,24 @@
           </div>
         </div>
 
-        <!-- Solution 5: MStrategy Deal Room -->
-        <div class="motion-grid-card bg-slate-50 rounded-3xl p-8 border border-slate-200 hover:border-purple-600 transition flex flex-col justify-between group shadow-sm hover:shadow-xl md:col-span-2 lg:col-span-2">
+        <!-- Solution 5: MStrategy Deal Room (Same size as 1-4, Centered in Row 2) -->
+        <div class="motion-grid-card bg-slate-50 rounded-3xl p-8 border border-slate-200 hover:border-purple-600 transition flex flex-col justify-between group shadow-sm hover:shadow-xl md:col-span-1 lg:col-span-2">
           <div>
             <div class="flex items-center justify-between mb-4">
-              <span class="text-xs font-bold px-3 py-1 rounded-full bg-purple-100 text-purple-700 border border-purple-200">M&A, Fundraising, Legal & Sensitive Deals</span>
-              <span class="text-[10px] font-mono text-slate-500 uppercase font-semibold">Solution 05</span>
+              <span class="text-xs font-bold px-3 py-1 rounded-full bg-purple-100 text-purple-700 border border-purple-200">M&A, Fundraising, Legal Deals</span>
             </div>
             <h3 class="text-2xl font-bold text-slate-900 mb-3 group-hover:text-purple-700 transition">
               MStrategy Deal Room
             </h3>
-            <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-6">
-              Secure Virtual Data Room (VDR) for M&A, fundraising, investment banking, legal matters and other sensitive transactions. Includes dynamic click-through NDAs, threaded buyer/seller Q&A, and waterfall permission control.
+            <p class="text-slate-600 text-sm leading-relaxed mb-6">
+              Secure Virtual Data Room (VDR) for M&A, fundraising, investment banking, legal matters and other sensitive transactions.
             </p>
-            <div class="grid sm:grid-cols-2 gap-4 mb-6">
-              <div class="browser-frame bg-white rounded-xl overflow-hidden border border-slate-200 shadow-sm">
-                <img src="assets/images/VDR Dashboard.png" alt="Deal Room Dashboard" class="w-full h-36 object-cover object-top">
-              </div>
-              <div class="browser-frame bg-white rounded-xl overflow-hidden border border-slate-200 shadow-sm">
-                <img src="assets/images/VDR Q&A.JPG" alt="Deal Room Q&A" class="w-full h-36 object-cover object-top">
-              </div>
+            <div class="browser-frame bg-white rounded-xl overflow-hidden border border-slate-200 mb-6 shadow-sm">
+              <img src="assets/images/VDR Dashboard.png" alt="MStrategy Deal Room Preview" class="w-full h-44 object-cover object-top">
             </div>
           </div>
           <div class="space-y-3">
-            <div class="text-xs text-slate-500 font-medium">Page-by-page audit trails, watermarking & granular transaction governance</div>
+            <div class="text-xs text-slate-500 font-medium">Page-by-page audit trails, watermarking & dynamic NDAs</div>
             <a href="deal-room.html" class="inline-flex items-center justify-between w-full px-5 py-3 rounded-xl bg-white group-hover:bg-purple-700 group-hover:text-white text-slate-800 border border-slate-300 group-hover:border-purple-700 font-semibold text-sm transition shadow-sm">
               <span>Explore MStrategy Deal Room</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
@@ -515,7 +471,7 @@
     </div>
   </section>
 
-  <!-- Specialized Capabilities / MStrategy Solutions Table & Grid -->
+  <!-- Specialized Capabilities / MStrategy Solutions Grid -->
   <section id="capabilities" class="py-24 bg-boxNavy text-white bg-box-section-dark border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
@@ -532,7 +488,7 @@
       </div>
 
       <!-- 6 Capabilities Cards Grid -->
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <!-- Capability 1: RBAC -->
         <div class="floating-glass-card-dark rounded-3xl p-8 border border-slate-700/80 hover:border-mOrange transition flex flex-col justify-between">
@@ -644,51 +600,6 @@
 
       </div>
 
-      <!-- Quick Summary Matrix -->
-      <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/60 p-1">
-        <table class="w-full text-left text-xs sm:text-sm">
-          <thead class="bg-slate-900 text-slate-300 uppercase text-[11px] font-bold tracking-wider border-b border-slate-800">
-            <tr>
-              <th class="py-3.5 px-4 sm:px-6">Solution</th>
-              <th class="py-3.5 px-4 sm:px-6">What It Does</th>
-              <th class="py-3.5 px-4 sm:px-6">Customer Value</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-slate-800 text-slate-300">
-            <tr class="hover:bg-slate-800/40 transition">
-              <td class="py-3 px-4 sm:px-6 font-semibold text-white">RBAC — Role-Based Access Control</td>
-              <td class="py-3 px-4 sm:px-6">Controls access based on a user's assigned role, responsibilities or organizational group.</td>
-              <td class="py-3 px-4 sm:px-6 text-emerald-400 font-medium">Ensures the right people access the right information.</td>
-            </tr>
-            <tr class="hover:bg-slate-800/40 transition">
-              <td class="py-3 px-4 sm:px-6 font-semibold text-white">ABAC — Attribute-Based Access Control</td>
-              <td class="py-3 px-4 sm:px-6">Applies dynamic access policies using user, document, organizational or contextual attributes.</td>
-              <td class="py-3 px-4 sm:px-6 text-emerald-400 font-medium">Provides granular, flexible security beyond traditional folder permissions.</td>
-            </tr>
-            <tr class="hover:bg-slate-800/40 transition">
-              <td class="py-3 px-4 sm:px-6 font-semibold text-white">DRM — Digital Rights Management</td>
-              <td class="py-3 px-4 sm:px-6">Adds controls such as watermarking, download restrictions and supported document-use protections.</td>
-              <td class="py-3 px-4 sm:px-6 text-emerald-400 font-medium">Helps protect sensitive intellectual property and confidential information.</td>
-            </tr>
-            <tr class="hover:bg-slate-800/40 transition">
-              <td class="py-3 px-4 sm:px-6 font-semibold text-white">Engage & Collaborate</td>
-              <td class="py-3 px-4 sm:px-6">Branded experiences, messaging, notifications, forms, checklists, tasks and signing.</td>
-              <td class="py-3 px-4 sm:px-6 text-emerald-400 font-medium">Improves user engagement and simplifies collaboration.</td>
-            </tr>
-            <tr class="hover:bg-slate-800/40 transition">
-              <td class="py-3 px-4 sm:px-6 font-semibold text-white">Automate & Integrate</td>
-              <td class="py-3 px-4 sm:px-6">Business workflows, Box automation, APIs, third-party integrations and AI-enabled experiences.</td>
-              <td class="py-3 px-4 sm:px-6 text-emerald-400 font-medium">Reduces manual processes and improves operational efficiency.</td>
-            </tr>
-            <tr class="hover:bg-slate-800/40 transition">
-              <td class="py-3 px-4 sm:px-6 font-semibold text-white">Monitor & Govern</td>
-              <td class="py-3 px-4 sm:px-6">Activity reporting, analytics, audit trails, access visibility and administrative controls.</td>
-              <td class="py-3 px-4 sm:px-6 text-emerald-400 font-medium">Strengthens oversight, accountability and compliance processes.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
     </div>
   </section>
 
@@ -701,10 +612,10 @@
           Why MStrategy
         </div>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-          Extending Your Box Investment Rather Than Replacing It
+          Maximize Your Box Investment and Extend Your Capabilities
         </h2>
         <p class="text-slate-600 text-base sm:text-lg">
-          MStrategy differentiates itself by extending the value of a customer's existing Box investment rather than replacing Box.
+          MStrategy takes Box beyond content management. We deliver secure, branded solutions that connect employees, customers, and partners to the information and business processes they need.
         </p>
       </div>
 
@@ -864,22 +775,19 @@
 
       </div>
 
-      <!-- Prominent Sales Message Box -->
-      <div class="bg-gradient-to-r from-boxMidnight via-boxNavy to-boxDarkNavy rounded-3xl p-8 sm:p-10 text-white border border-slate-800 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
-        <div class="space-y-2 max-w-3xl">
+      <!-- Prominent Sales Message Box (Centered copy, without button) -->
+      <div class="bg-gradient-to-r from-boxMidnight via-boxNavy to-boxDarkNavy rounded-3xl p-8 sm:p-10 text-white border border-slate-800 shadow-xl text-center max-w-4xl mx-auto">
+        <div class="space-y-3">
           <div class="inline-flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-mOrange">
             <span>The MStrategy Delivery Advantage</span>
           </div>
-          <h3 class="text-xl sm:text-2xl font-bold">
+          <h3 class="text-xl sm:text-2xl font-bold max-w-3xl mx-auto">
             MStrategy delivers a complete, managed solution—not just software licenses—reducing the customer's implementation and ongoing operational burden.
           </h3>
-          <p class="text-slate-300 text-sm">
+          <p class="text-slate-300 text-sm max-w-2xl mx-auto">
             Eliminate lengthy engineering cycles and vendor management overhead with an all-inclusive partner who configures, deploys, hosts, and supports your Box solutions.
           </p>
         </div>
-        <button class="open-demo-modal flex-shrink-0 btn-primary-orange text-xs font-bold uppercase tracking-wider px-8 py-4 rounded-full shadow-lg">
-          Consult Solutions Architect
-        </button>
       </div>
 
     </div>
@@ -1025,24 +933,17 @@
       </div>
 
       <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-        MStrategy takes Box beyond content management.
+        MStrategy Takes Box Beyond Content Management
       </h2>
 
-      <p class="text-slate-300 text-base sm:text-xl max-w-4xl mx-auto leading-relaxed">
-        We deliver secure, branded solutions that connect employees, customers and partners to the information and business processes they need. With advanced access controls, RBAC, ABAC, DRM, workflows and automation, we transform Box into a powerful collaboration platform for the entire business ecosystem. Our prebuilt solutions, configuration services and managed hosting accelerate deployment, reduce complexity and deliver faster business value.
+      <p class="text-slate-300 text-base sm:text-xl max-w-3xl mx-auto leading-relaxed">
+        Our prebuilt solutions, configuration services and managed hosting accelerate deployment, reduce complexity and deliver faster business value.
       </p>
 
-      <div class="pt-2 text-xl sm:text-2xl font-extrabold text-white">
-        <span class="text-gradient-orange">MStrategy — Extend Box Across Your Entire Ecosystem.</span>
-      </div>
-
-      <div class="pt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <div class="pt-4 flex justify-center">
         <button class="open-demo-modal btn-primary-orange text-sm font-bold uppercase tracking-wider px-9 py-4 rounded-full shadow-lg">
           Schedule Live Demonstration
         </button>
-        <a href="mailto:info@mstrategygroup.com" class="btn-outline-white text-sm font-semibold px-9 py-4 rounded-full">
-          Speak with a Solutions Architect
-        </a>
       </div>
 
     </div>
