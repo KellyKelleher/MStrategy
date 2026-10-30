@@ -41,7 +41,7 @@
           <span>Recognition</span>
         </span>
         <span class="text-slate-200">
-          Honored as <strong class="text-white font-semibold">Box Commercial Partner of the Year</strong>
+          Honored as <strong class="text-white font-semibold">Box Breakout Partner of the Year</strong>
         </span>
       </div>
       <div class="hidden md:flex items-center space-x-4 text-slate-300 text-xs">
@@ -74,7 +74,7 @@
             <div class="dropdown-menu absolute left-0 top-full mt-1 w-96 rounded-2xl bg-white border border-slate-200 shadow-2xl p-3 z-50">
               <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 py-2 border-b border-slate-100 mb-1 flex items-center justify-between">
                 <span>MStrategy Product Portfolio</span>
-                <span class="text-[10px] text-mOrange font-mono">5 Core Solutions</span>
+                <span class="text-[10px] text-mOrange font-mono">6 Core Solutions</span>
               </div>
               
               <a href="client.html" class="flex items-start p-3 rounded-xl hover:bg-slate-50 transition group/item">
@@ -126,10 +126,36 @@
                   <div class="text-xs text-slate-500">Virtual Data Room (VDR) for M&A, fundraising & legal transactions</div>
                 </div>
               </a>
+              <a href="drm.html" class="flex items-start p-3 rounded-xl hover:bg-slate-50 transition group/item">
+                <div class="w-9 h-9 rounded-lg bg-orange-50 text-mOrange flex items-center justify-center mr-3 mt-0.5 group-hover/item:bg-mOrange group-hover/item:text-white transition">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-slate-900 group-hover/item:text-mOrange transition">MStrategy Access</div>
+                  <div class="text-xs text-slate-500">Enterprise portal access controls (RBAC & ABAC) for Box</div>
+                </div>
+              </a>
             </div>
           </div>
 
-          <a href="drm.html" class="nav-link hover:text-white">Security & DRM</a>
+                    <!-- Solutions / Capabilities Dropdown -->
+          <div class="relative group">
+            <button class="flex items-center space-x-1 nav-link hover:text-white py-2">
+              <span>Capabilities</span>
+              <svg class="w-4 h-4 text-slate-400 group-hover:text-mOrange transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+
+            <div class="dropdown-menu absolute left-0 top-full mt-1 w-88 rounded-2xl bg-boxDarkNavy border border-slate-700 shadow-2xl p-3 z-50">
+              <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 py-2 border-b border-slate-800 mb-1">Specialized Capabilities</div>
+              <a href="rbac.html" class="block p-2.5 rounded-lg hover:bg-slate-800 text-white text-xs font-semibold">Role-Based Access Control</a>
+              <a href="abac.html" class="block p-2.5 rounded-lg hover:bg-slate-800 text-white text-xs font-semibold">Attribute-Based Access Control</a>
+              <a href="index.html#capabilities" class="block p-2.5 rounded-lg hover:bg-slate-800 text-white text-xs font-semibold">Engage & Collaborate</a>
+              <a href="index.html#capabilities" class="block p-2.5 rounded-lg hover:bg-slate-800 text-white text-xs font-semibold">Automate & Integrate</a>
+              <a href="index.html#capabilities" class="block p-2.5 rounded-lg hover:bg-slate-800 text-white text-xs font-semibold">Monitor & Govern</a>
+            </div>
+          </div>
           <a href="index.html#why-mstrategy" class="nav-link hover:text-white">Why MStrategy</a>
           <a href="index.html#services" class="nav-link hover:text-white">Managed Services</a>
           <a href="index.html#industries" class="nav-link hover:text-white">Industries</a>
@@ -157,8 +183,15 @@
         <a href="employee.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">MStrategy Employee</a>
         <a href="connect.html" class="block pl-3 py-1 font-bold text-boxBlue">MStrategy Connect</a>
         <a href="deal-room.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">MStrategy Deal Room</a>
+        <a href="drm.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">MStrategy Access</a>
       </div>
-      <a href="drm.html" class="block py-2 text-slate-300 hover:text-white">Security & DRM</a>
+
+      <div class="py-2 border-b border-slate-800 space-y-2">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Specialized Capabilities</div>
+        <a href="rbac.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">Role-Based Access Control</a>
+        <a href="abac.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">Attribute-Based Access Control</a>
+        <a href="index.html#capabilities" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">All Specialized Capabilities</a>
+      </div>
       <a href="https://www.mstrategygroup.com/contact" class="w-full btn-primary-orange text-xs uppercase tracking-wider font-bold py-3 rounded-full mt-2 inline-flex items-center justify-center">
         Contact Us
       </a>
@@ -296,12 +329,14 @@
         <div><a href="partner.html" class="hover:text-white transition">MStrategy Partner</a></div>
         <div><a href="employee.html" class="hover:text-white transition">MStrategy Employee</a></div>
         <div><a href="connect.html" class="text-white font-semibold">MStrategy Connect</a></div>
-        <div><a href="deal-room.html" class="hover:text-white transition">MStrategy Deal Room</a></div>
+                <div><a href="deal-room.html" class="hover:text-white transition">MStrategy Deal Room</a></div>
+        <div><a href="drm.html" class="hover:text-white transition">MStrategy Access</a></div>
       </div>
       <div class="space-y-2">
         <div class="font-bold text-white uppercase text-[11px] tracking-wider mb-2">Capabilities</div>
-        <div><a href="drm.html" class="hover:text-white transition">DRM & Access Controls</a></div>
-        <div><a href="index.html#capabilities" class="hover:text-white transition">RBAC & ABAC</a></div>
+        <div><a href="rbac.html" class="hover:text-white transition">Role-Based Access Control</a></div>
+        <div><a href="abac.html" class="hover:text-white transition">Attribute-Based Access Control</a></div>
+        <div><a href="index.html#capabilities" class="hover:text-white transition">Forensic Watermarking</a></div>
         <div><a href="index.html#capabilities" class="hover:text-white transition">Engage & Collaborate</a></div>
         <div><a href="index.html#capabilities" class="hover:text-white transition">Automate & Integrate</a></div>
       </div>

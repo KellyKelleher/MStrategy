@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MStrategy Security | DRM, RBAC & ABAC Access Controls for Box</title>
-  <meta name="description" content="MStrategy Security extends Box with Digital Rights Management (DRM), Role-Based Access Control (RBAC), and Attribute-Based Access Control (ABAC). Box Commercial Partner of the Year.">
+  <title>MStrategy Access | Enterprise Access Controls & DRM for Box</title>
+  <meta name="description" content="Extend Box security beyond standard folder permissions. MStrategy Access delivers advanced Role-Based (RBAC) and Attribute-Based (ABAC) access controls. Box Breakout Partner of the Year.">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +41,7 @@
           <span>Recognition</span>
         </span>
         <span class="text-slate-200">
-          Honored as <strong class="text-white font-semibold">Box Commercial Partner of the Year</strong>
+          Honored as <strong class="text-white font-semibold">Box Breakout Partner of the Year</strong>
         </span>
       </div>
       <div class="hidden md:flex items-center space-x-4 text-slate-300 text-xs">
@@ -74,7 +74,7 @@
             <div class="dropdown-menu absolute left-0 top-full mt-1 w-96 rounded-2xl bg-white border border-slate-200 shadow-2xl p-3 z-50">
               <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 py-2 border-b border-slate-100 mb-1 flex items-center justify-between">
                 <span>MStrategy Product Portfolio</span>
-                <span class="text-[10px] text-mOrange font-mono">5 Core Solutions</span>
+                <span class="text-[10px] text-mOrange font-mono">6 Core Solutions</span>
               </div>
               
               <a href="client.html" class="flex items-start p-3 rounded-xl hover:bg-slate-50 transition group/item">
@@ -126,10 +126,37 @@
                   <div class="text-xs text-slate-500">Virtual Data Room (VDR) for M&A, fundraising & legal transactions</div>
                 </div>
               </a>
+
+              <a href="drm.html" class="flex items-start p-3 rounded-xl bg-orange-50 text-mOrange transition group/item">
+                <div class="w-9 h-9 rounded-lg bg-mOrange text-white flex items-center justify-center mr-3 mt-0.5 shadow-sm">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+                </div>
+                <div>
+                  <div class="text-sm font-bold text-slate-900">MStrategy Access</div>
+                  <div class="text-xs text-slate-500">Enterprise portal access controls (RBAC & ABAC) for Box</div>
+                </div>
+              </a>
             </div>
           </div>
 
-          <a href="drm.html" class="nav-link text-mOrange font-bold">Security & DRM</a>
+          <!-- Solutions / Capabilities Dropdown -->
+          <div class="relative group">
+            <button class="flex items-center space-x-1 nav-link hover:text-white py-2">
+              <span>Capabilities</span>
+              <svg class="w-4 h-4 text-slate-400 group-hover:text-mOrange transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+
+            <div class="dropdown-menu absolute left-0 top-full mt-1 w-88 rounded-2xl bg-boxDarkNavy border border-slate-700 shadow-2xl p-3 z-50">
+              <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 py-2 border-b border-slate-800 mb-1">Specialized Capabilities</div>
+              <a href="rbac.html" class="block p-2.5 rounded-lg hover:bg-slate-800 text-white text-xs font-semibold">Role-Based Access Control</a>
+              <a href="abac.html" class="block p-2.5 rounded-lg hover:bg-slate-800 text-white text-xs font-semibold">Attribute-Based Access Control</a>
+              <a href="index.html#capabilities" class="block p-2.5 rounded-lg hover:bg-slate-800 text-white text-xs font-semibold">Engage & Collaborate</a>
+              <a href="index.html#capabilities" class="block p-2.5 rounded-lg hover:bg-slate-800 text-white text-xs font-semibold">Automate & Integrate</a>
+              <a href="index.html#capabilities" class="block p-2.5 rounded-lg hover:bg-slate-800 text-white text-xs font-semibold">Monitor & Govern</a>
+            </div>
+          </div>
           <a href="index.html#why-mstrategy" class="nav-link hover:text-white">Why MStrategy</a>
           <a href="index.html#services" class="nav-link hover:text-white">Managed Services</a>
           <a href="index.html#industries" class="nav-link hover:text-white">Industries</a>
@@ -149,6 +176,7 @@
       </div>
     </div>
 
+    <!-- Mobile Dropdown Menu -->
     <div id="mobile-menu" class="hidden lg:hidden bg-boxDarkNavy border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
       <div class="py-2 border-b border-slate-800 space-y-2">
         <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Product Portfolio</div>
@@ -157,8 +185,15 @@
         <a href="employee.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">MStrategy Employee</a>
         <a href="connect.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">MStrategy Connect</a>
         <a href="deal-room.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">MStrategy Deal Room</a>
+        <a href="drm.html" class="block pl-3 py-1 font-bold text-mOrange">MStrategy Access</a>
       </div>
-      <a href="drm.html" class="block py-2 font-bold text-mOrange">Security & DRM</a>
+
+      <div class="py-2 border-b border-slate-800 space-y-2">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Specialized Capabilities</div>
+        <a href="rbac.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">Role-Based Access Control</a>
+        <a href="abac.html" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">Attribute-Based Access Control</a>
+        <a href="index.html#capabilities" class="block pl-3 py-1 text-slate-300 hover:text-mOrange">All Specialized Capabilities</a>
+      </div>
       <a href="https://www.mstrategygroup.com/contact" class="w-full btn-primary-orange text-xs uppercase tracking-wider font-bold py-3 rounded-full mt-2 inline-flex items-center justify-center">
         Contact Us
       </a>
@@ -172,17 +207,20 @@
       
       <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full badge-orange text-xs font-bold uppercase tracking-wider shadow-sm">
         <span class="w-2 h-2 rounded-full bg-mOrange animate-ping"></span>
-        <span>Advanced Security & Governance</span>
-        <span class="text-slate-300">|</span>
-        <span>RBAC &bull; ABAC &bull; DRM</span>
+        <span>Digital rights management</span>
       </div>
 
-      <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.1]">
-        Digital Rights Management & Access Controls
-      </h1>
+      <div class="space-y-2">
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.1]">
+          Introducing MStrategy Access
+        </h1>
+        <p class="text-sm md:text-base font-bold text-mOrange uppercase tracking-wider">
+          Coming December 2026
+        </p>
+      </div>
 
-      <p class="text-lg sm:text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto font-normal leading-relaxed">
-        Beyond traditional folder permissions: granular Role-Based Access Control, dynamic Attribute-Based policies, and persistent Document Rights Management.
+      <p class="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto font-normal leading-relaxed">
+        Extend Box security beyond standard folder permissions. MStrategy Access integrates with existing enterprise portals, delivering advanced Role-Based (RBAC) and Attribute-Based (ABAC) access controls. Organizations gain granular, policy-driven permissions over who can access specific Box folders and content—without replacing their existing portal infrastructure.
       </p>
 
       <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -213,78 +251,20 @@
     </div>
   </section>
 
-  <!-- Security Solutions Grid (RBAC, ABAC, DRM) -->
-  <section class="py-20 bg-white border-b border-slate-200">
+  <!-- Digital Rights Management Controls & Audit -->
+  <section class="py-20 bg-slate-50 border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full badge-orange text-xs font-bold uppercase tracking-wider">
+          Digital Rights Management
+        </div>
         <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">
-          Three Layers of Advanced Security & Access Control
+          Granular Document Protection & Policy Governance
         </h2>
         <p class="text-slate-600 text-base">
-          MStrategy provides specialized capabilities deployed within its portal solutions to address security, governance and business process requirements.
+          Enforce persistent security policies, dynamic viewer watermarks, and complete visibility across every distributed file.
         </p>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-8">
-        
-        <!-- RBAC -->
-        <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 space-y-4 flex flex-col justify-between">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-orange-100 text-mOrange flex items-center justify-center font-bold mb-4">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
-            </div>
-            <span class="text-xs font-bold text-mOrange uppercase tracking-wider">Access Control Layer 01</span>
-            <h3 class="text-xl font-bold text-slate-900 mt-1 mb-2">RBAC — Role-Based Access Control</h3>
-            <div class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">What It Does</div>
-            <p class="text-slate-600 text-sm leading-relaxed mb-4">
-              Controls access based on a user's assigned role, responsibilities or organizational group.
-            </p>
-          </div>
-          <div class="pt-4 border-t border-slate-200">
-            <div class="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-1">Customer Value</div>
-            <p class="text-sm font-semibold text-slate-900">Ensures the right people access the right information.</p>
-          </div>
-        </div>
-
-        <!-- ABAC -->
-        <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 space-y-4 flex flex-col justify-between">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center font-bold mb-4">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-            </div>
-            <span class="text-xs font-bold text-cyan-800 uppercase tracking-wider">Access Control Layer 02</span>
-            <h3 class="text-xl font-bold text-slate-900 mt-1 mb-2">ABAC — Attribute-Based Access Control</h3>
-            <div class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">What It Does</div>
-            <p class="text-slate-600 text-sm leading-relaxed mb-4">
-              Applies dynamic access policies using user, document, organizational or contextual attributes.
-            </p>
-          </div>
-          <div class="pt-4 border-t border-slate-200">
-            <div class="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-1">Customer Value</div>
-            <p class="text-sm font-semibold text-slate-900">Provides granular, flexible security beyond traditional folder permissions.</p>
-          </div>
-        </div>
-
-        <!-- DRM -->
-        <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 space-y-4 flex flex-col justify-between">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-blue-100 text-boxBlue flex items-center justify-center font-bold mb-4">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
-            </div>
-            <span class="text-xs font-bold text-boxBlue uppercase tracking-wider">Protection Layer 03</span>
-            <h3 class="text-xl font-bold text-slate-900 mt-1 mb-2">DRM — Digital Rights Management</h3>
-            <div class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">What It Does</div>
-            <p class="text-slate-600 text-sm leading-relaxed mb-4">
-              Adds controls such as watermarking, download restrictions and supported document-use protections.
-            </p>
-          </div>
-          <div class="pt-4 border-t border-slate-200">
-            <div class="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-1">Customer Value</div>
-            <p class="text-sm font-semibold text-slate-900">Helps protect sensitive intellectual property and confidential information.</p>
-          </div>
-        </div>
-
       </div>
 
       <!-- Gallery of DRM Controls -->
@@ -342,11 +322,13 @@
         <div><a href="employee.html" class="hover:text-white transition">MStrategy Employee</a></div>
         <div><a href="connect.html" class="hover:text-white transition">MStrategy Connect</a></div>
         <div><a href="deal-room.html" class="hover:text-white transition">MStrategy Deal Room</a></div>
+        <div><a href="drm.html" class="text-white font-semibold">MStrategy Access</a></div>
       </div>
       <div class="space-y-2">
         <div class="font-bold text-white uppercase text-[11px] tracking-wider mb-2">Capabilities</div>
-        <div><a href="drm.html" class="text-white font-semibold">DRM & Access Controls</a></div>
-        <div><a href="index.html#capabilities" class="hover:text-white transition">RBAC & ABAC</a></div>
+        <div><a href="rbac.html" class="hover:text-white transition">Role-Based Access Control</a></div>
+        <div><a href="abac.html" class="hover:text-white transition">Attribute-Based Access Control</a></div>
+        <div><a href="index.html#capabilities" class="hover:text-white transition">Forensic Watermarking</a></div>
         <div><a href="index.html#capabilities" class="hover:text-white transition">Engage & Collaborate</a></div>
         <div><a href="index.html#capabilities" class="hover:text-white transition">Automate & Integrate</a></div>
       </div>
