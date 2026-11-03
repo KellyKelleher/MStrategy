@@ -114,4 +114,51 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  // 6. Hero Section Rotating Graphics Carousel (A41.png, A42.png, A43.png)
+  const heroSlides = document.querySelectorAll('.hero-carousel-slide');
+  const heroDots = document.querySelectorAll('.hero-carousel-dot');
+  if (heroSlides.length > 0) {
+    let currentSlide = 0;
+    let slideInterval;
+
+    const showHeroSlide = (index) => {
+      currentSlide = index;
+      heroSlides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.remove('opacity-0', 'z-0');
+          slide.classList.add('opacity-100', 'z-10');
+        } else {
+          slide.classList.remove('opacity-100', 'z-10');
+          slide.classList.add('opacity-0', 'z-0');
+        }
+      });
+      heroDots.forEach((dot, i) => {
+        if (i === index) {
+          dot.classList.remove('bg-slate-400/60');
+          dot.classList.add('bg-mOrange');
+        } else {
+          dot.classList.remove('bg-mOrange');
+          dot.classList.add('bg-slate-400/60');
+        }
+      });
+    };
+
+    const startHeroCarousel = () => {
+      slideInterval = setInterval(() => {
+        const nextIndex = (currentSlide + 1) % heroSlides.length;
+        showHeroSlide(nextIndex);
+      }, 4000);
+    };
+
+    heroDots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        clearInterval(slideInterval);
+        showHeroSlide(index);
+        startHeroCarousel();
+      });
+    });
+
+    startHeroCarousel();
+  }
 });
